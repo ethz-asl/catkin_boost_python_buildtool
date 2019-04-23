@@ -2,7 +2,7 @@
 <package format="2">
   <name>catkin_boost_python_test</name>
   <version>0.0.1</version>
-  <description>test....</description>
+  <description>Unittest for the Catkin Boost Python CMake macro.</description>
 
   <maintainer email="mathias.buerki@mavt.ethz.ch">Mathias Buerki</maintainer>
   <license>New BSD</license>
