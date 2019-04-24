@@ -33,5 +33,4 @@ cs_export()
 
 catkin_add_nosetests( 
   test/test.py
-  DEPENDENCIES ${PROJECT_NAME}
 )
