@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(catkin_boost_python_test)
+project(catkin_boost_python_buildtool_test)
 
 find_package(catkin_simple REQUIRED)
 catkin_simple()
