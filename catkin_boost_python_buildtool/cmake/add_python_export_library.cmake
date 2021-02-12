@@ -21,7 +21,7 @@ FUNCTION(add_python_export_library TARGET_NAME PYTHON_MODULE_DIRECTORY)
   else()
     #Ros Noetic & ubuntu 20
     if(PYTHON_VERSION EQUAL 3)
-      set(TARGET_VERSION 3.8)
+      set(TARGET_VERSION 3)
     else()
       set(TARGET_VERSION 2.7)
     endif()
