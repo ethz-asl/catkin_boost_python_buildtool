@@ -19,7 +19,11 @@ FUNCTION(add_python_export_library TARGET_NAME PYTHON_MODULE_DIRECTORY)
   if (DEFINED MY_ARGS_VERSION)
     set(TARGET_VERSION ${MY_ARGS_VERSION})
   else()
-    set(TARGET_VERSION 2.7)
+    if(${PYTHON_VERSION_MAJOR} EQUAL 2)
+      set(TARGET_VERSION 2.7)
+    else()
+      set(TARGET_VERSION ${PYTHON_VERSION_MAJOR})
+    endif()
   endif()
 
   # Cmake is a very bad scripting language. Very bad indeed.
